@@ -1,0 +1,25 @@
+{
+  "name": "cognitron",
+  "version": "0.1.0",
+  "description": "AI-powered Reddit game that breaks echo chambers",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "devvit start",
+    "deploy": "devvit deploy",
+    "test": "node simple-test.js", 
+    "dev:test": "tsx watch test-setup.ts"
+  },
+  "dependencies": {
+    "@devvit/public-api": "latest",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.1"
+  },
+  "keywords": ["reddit", "game", "ai", "hackathon"],
+  "author": "Your Name",
+  "license": "MIT"
+}
