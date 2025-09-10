@@ -7,19 +7,24 @@
     "build": "tsc",
     "dev": "devvit start",
     "deploy": "devvit deploy",
-    "test": "node simple-test.js", 
+    "test": "node simple-test.js",
     "dev:test": "tsx watch test-setup.ts"
   },
   "dependencies": {
-    "@devvit/public-api": "latest",
+    "@devvit/public-api": "^0.12.0",
     "openai": "^4.20.1"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
     "@types/node": "^20.0.0",
-    "tsx": "^4.7.1"
+    "tsx": "^4.7.1",
+    "typescript": "^5.0.0"
   },
-  "keywords": ["reddit", "game", "ai", "hackathon"],
+  "keywords": [
+    "reddit",
+    "game",
+    "ai",
+    "hackathon"
+  ],
   "author": "Your Name",
   "license": "MIT"
 }
